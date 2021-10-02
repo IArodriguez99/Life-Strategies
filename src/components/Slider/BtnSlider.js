@@ -1,10 +1,10 @@
 import './Slider.css'
-// import leftArrow from '..icons/left-arrow.svg'
+import leftArrow from '../icons/left-arrow.svg'
 import rightArrow from '../icons/right-arrow.svg'
 
 const BtnSlider = ({direction, moveSlide}) => {
     return ( 
-        <button onCLick={moveSlide} className={direction === "next" ? 'btn-slide next' : "btn-slide prev"}>
+        <button onClick={moveSlide} className={direction === "next" ? 'btn-slide next' : "btn-slide prev"}>
             <img src={direction === "next" ? rightArrow : leftArrow} />
         </button>
      );

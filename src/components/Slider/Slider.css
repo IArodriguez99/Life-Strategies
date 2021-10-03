@@ -1,7 +1,7 @@
 .container-slider {
-    max-width: 700px;
-    height: 500px;
-    margin: 100px auto 0;
+    max-width: 70%;
+    height: 600px;
+    margin: 6.25rem auto 0;
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -65,8 +65,8 @@
     display: flex;
   }
   .dot {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     border: 3px solid #f1f1f1;
     margin: 0 5px;

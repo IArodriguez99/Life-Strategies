@@ -1,5 +1,5 @@
 import './Home.css'
-
+import headshot from './Maria.png'
 
 const Home = () => {
     return ( 
@@ -8,13 +8,12 @@ const Home = () => {
                 <div className="home-col">
                     <h1>Lorem ipsum dolor sit consect amet.</h1>
                     <p>ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</p>
-                    <button>Make an Appointment</button>
+                    <button className="btn1">Make an Appointment</button>
                 </div>
                 <div className="home-img">
-                    <img src={'./Maria.png'} />
+                    <img src={headshot} alt="homeimage"/>
                 </div>   
             </div>
-            
         </div>
      );
 }

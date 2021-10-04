@@ -1,0 +1,19 @@
+.container-home{
+    margin: 6rem auto 0;
+    max-width: 100%;
+}
+
+.home-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-img{
+    
+}

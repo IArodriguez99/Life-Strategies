@@ -1,6 +1,6 @@
 .container-slider {
     max-width: 70%;
-    height: 600px;
+    height: 800px;
     margin: 6.25rem auto 0;
     position: relative;
     overflow: hidden;
@@ -73,4 +73,9 @@
   }
   .dot.active {
     background: rgb(32, 32, 32);
+  }
+
+  .container-text{
+    position: absolute;
+    color: rgb(255, 255, 255);
   }

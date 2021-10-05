@@ -7,7 +7,7 @@ const Home = () => {
             <div className="home-row">
                 <div className="home-col">
                     <h1>Lorem ipsum dolor sit consect amet.</h1>
-                    <p>ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</p>
+                    <p>Ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</p>
                     <button className="btn1">Make an Appointment</button>
                 </div>
                 <div className="home-img">

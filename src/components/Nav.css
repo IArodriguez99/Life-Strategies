@@ -1,7 +1,9 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
+    max-width: 85%;
+    margin: auto;
 }
 
 ul{
@@ -11,5 +13,5 @@ ul{
 }
 
 li{
-    padding: 8px 16px;
+    padding: 8px 40px;
 }

@@ -1,6 +1,6 @@
 
 .container-home{
-    margin: 6rem auto 0;
+    margin: 4rem auto 0;
     max-width: 100%;
 }
 
@@ -14,13 +14,18 @@
 .home-col{
     display: flex;
     flex-direction: column;
-    max-width: 25%;
+    max-width: 35%;
+}
+
+.home-col h1{
+    margin-bottom: 0;
 }
 
 .btn1{
     width: 60%;
     padding: 16px 24px;
+    margin-top: 2rem;
     border-radius: 50px;
-    overflow: hidden;
+    color: none;
 }
 

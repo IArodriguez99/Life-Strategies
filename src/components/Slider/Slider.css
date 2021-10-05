@@ -1,7 +1,7 @@
 .container-slider {
-    max-width: 70%;
+    max-width: 85%;
     height: 800px;
-    margin: 6.25rem auto 0;
+    margin: 6.25rem auto 3rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -77,5 +77,11 @@
 
   .container-text{
     position: absolute;
-    color: rgb(255, 255, 255);
+    left: 44%;
+    bottom: 10%;
+  }
+
+  .service-btn{
+    padding: 16px 88px;
+    border-radius: 50px;
   }

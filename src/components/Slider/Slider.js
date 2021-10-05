@@ -55,9 +55,9 @@ export default function Slider() {
                 ))}
             </div>
 
-            <div className="container-text">
-                <h1>Hello</h1>
-            </div>
+            {/* <div className="container-text">
+                <button className="service-btn">Service </button>
+            </div> */}
         </div>
     )
 }

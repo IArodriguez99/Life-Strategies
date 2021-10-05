@@ -1,7 +1,7 @@
 import './App.css';
-import Nav from './components/Nav'
+import Nav from './components/Nav/Nav'
 import Slider from './components/Slider/Slider'
-import Home from './Home/Home'
+import Home from './components/Home/Home'
 
 function App() {
   return (

@@ -1,14 +1,14 @@
 import './App.css';
 import Nav from './components/Nav/Nav'
-import Slider from './components/Slider/Slider'
 import Home from './components/Home/Home'
+import Form from './components/Form/Form';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Home />
-      <Slider />
+      <Form />
     </div>
   );
 }

@@ -10,8 +10,8 @@ const Home = () => {
                     <p>Ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet.</p>
                     <button className="btn1">Make an Appointment</button>
                 </div>
-                <div className="home-img">
-                    <img src={headshot} alt="homeimage"/>
+                <div>
+                    <img src={headshot} alt="homeimage" className="headshot"/>
                 </div>   
             </div>
         </div>

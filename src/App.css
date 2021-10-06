@@ -2,13 +2,10 @@
     box-sizing: border-box;
 }
 
-:root{
-    
-}
-
 h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 4rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 h4{
@@ -20,4 +17,5 @@ h4{
 p{
     font-size: 1.2rem;
     line-height: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }

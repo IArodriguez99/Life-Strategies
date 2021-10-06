@@ -10,6 +10,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    font-family: 'Raleway', sans-serif;
 }
 
 li{

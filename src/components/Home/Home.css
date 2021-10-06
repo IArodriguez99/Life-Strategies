@@ -1,7 +1,9 @@
-
 .container-home{
-    margin: 4rem auto 0;
+    padding-bottom: 8rem;
     max-width: 100%;
+    background-image: url(./Hero.png);
+    background-repeat: no-repeat;
+    background-position: initial;
 }
 
 .home-row{
@@ -15,17 +17,27 @@
     display: flex;
     flex-direction: column;
     max-width: 35%;
+    min-width: 25%;
 }
 
 .home-col h1{
     margin-bottom: 0;
 }
 
+.headshot{
+    max-width: 100%;
+    height: auto;
+}
+
 .btn1{
-    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
     padding: 16px 24px;
     margin-top: 2rem;
     border-radius: 50px;
-    color: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
 }
 

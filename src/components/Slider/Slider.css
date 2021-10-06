@@ -1,6 +1,7 @@
 .container-slider {
     max-width: 85%;
     height: 800px;
+    border-radius: 15px;
     margin: 6.25rem auto 3rem;
     position: relative;
     overflow: hidden;

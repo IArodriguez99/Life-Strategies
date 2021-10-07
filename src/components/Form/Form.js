@@ -14,8 +14,8 @@ const Form = () => {
                         <input type="text" placeholder="Phone Number"/>
                         <input type="text" placeholder="Email"/>
                         <input type="text" placeholder="Service Needed"/>
-                        <textarea placeholder="Messege"></textarea>
-                        <input type="submit" value="Send Messege" />
+                        <textarea placeholder="Message"></textarea>
+                        <input type="submit" value="Send Message" />
                     </div>
                 </div>
         </div>   

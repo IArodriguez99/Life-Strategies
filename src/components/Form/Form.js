@@ -1,51 +1,23 @@
 import './Form.css'
+import hands from './hands.png'
 
 const Form = () => {
     return ( 
         <div className="form-container">
-           <div class="card">
-                <h2>Contact Me</h2>
-                <div class="row">
-                    <div class="col">
-                    <div class="form-group">
-                        <label>First Name</label>
-                        <input type="text" />
+                <div className="form-row">
+                    <div className="form-img">
+                    <img src={hands} alt= "hands" className="form-img"/>
                     </div>
-                    </div>
-
-                <div class="col">
-                    <div class="form-group">
-                        <label>Surname</label>
-                        <input type="text" />
+                    <div className="form-col">
+                        <h2>Get in touch</h2>
+                        <input type="text" placeholder="Name"/>
+                        <input type="text" placeholder="Phone Number"/>
+                        <input type="text" placeholder="Email"/>
+                        <input type="text" placeholder="Service Needed"/>
+                        <textarea placeholder="Messege"></textarea>
+                        <input type="submit" value="Send Messege" />
                     </div>
                 </div>
-
-                <div class="col">
-                <div class="form-group">
-                        <label>Email</label>
-                        <input type="text" />
-                </div>
-                </div>
-
-                <div class="col">
-                <div class="form-group">
-                    <label>Phone</label>
-                    <input type="text" />
-                </div>
-                </div>
-
-                <div class="col">
-                <div class="form-group">
-                    <label>Message</label>
-                    <textarea></textarea>
-                </div>
-                </div>
-
-                <div class="col">
-                <input type="submit" value="Submit" />
-                </div>
-            </div>
-            </div>
         </div>   
      );
 }

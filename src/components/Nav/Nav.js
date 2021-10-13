@@ -13,6 +13,7 @@ const Nav = () => {
                 <li><a>Women's Health</a></li>
                 <li><a>Faith Based</a></li>
                 <li><a>About</a></li>
+                <button className="nav-btn">Contact</button>
             </ul>     
         </nav>
      );

@@ -2,24 +2,30 @@ html, body{
     margin: 0;
     background-image: url(Hero.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: relative;
+    background-size: 100% 50%;
+    background-position: 0rem 0vh;
 }
 
 h1{
     font-size: 3rem;
     line-height: 4rem;
     font-family: 'Raleway', sans-serif;
+    color: #F9FFEA;
+}
+
+h2{
+    color: #F9FFEA;
 }
 
 h4{
     font-size: 2rem;
     font-weight: 500;
-    color: white;
+    color: #F9FFEA;
 }
 
 p{
     font-size: 1.2rem;
     line-height: 2.25rem;
     font-family: 'Raleway', sans-serif;
+    color: #F9FFEA;
 }

@@ -1,23 +1,25 @@
 .container-home{
-    padding-bottom: 8rem;
-    max-width: 100%;
-    background-image: url(./Hero.png);
-    background-repeat: no-repeat;
-    background-position: initial;
+    max-width: 85%;
+    margin: auto;
 }
 
 .home-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 6rem;
 }
 
 .home-col{
     display: flex;
     flex-direction: column;
-    max-width: 35%;
+    max-width: 51%;
     min-width: 25%;
+}
+
+.home-p{
+    max-width: 80%;
 }
 
 .home-col h1{
@@ -27,14 +29,15 @@
 .headshot{
     max-width: 100%;
     height: auto;
+    
 }
 
 .btn1{
-    max-width: 60%;
-    min-width: 60%;
-    padding: 16px 24px;
+    max-width: 35%;
+    min-width: 35%;
+    padding: 24px;
     margin-top: 2rem;
-    border-radius: 50px;
+    border-radius: 12px;
     border: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;

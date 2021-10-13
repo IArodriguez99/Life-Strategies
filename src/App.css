@@ -1,9 +1,13 @@
 html, body{
     margin: 0;
+    background-image: url(Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
 }
 
 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 4rem;
     font-family: 'Raleway', sans-serif;
 }
@@ -16,6 +20,6 @@ h4{
 
 p{
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 2.25rem;
     font-family: 'Raleway', sans-serif;
 }

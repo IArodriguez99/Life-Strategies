@@ -1,0 +1,52 @@
+.about-container{
+    max-width: 85%;
+    margin: auto;
+    margin-top: 15rem;
+    margin-bottom: 7rem;
+}
+
+.about-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-row h1{
+    color: #343A52;
+    max-width: 80%;
+}
+
+.about-row p{
+    color: #343A52;
+    max-width: 70%;
+}
+
+.about-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+}
+
+.maria{
+    max-width: 100%;
+    height: auto;
+}
+
+.about-btn{
+    max-width: 30%;
+    min-width: 30%;
+    padding: 24px;
+    margin-top: 2rem;
+    border-radius: 12px;
+    border: 2px solid #343A52;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #343A52;
+}
+
+

@@ -1,0 +1,19 @@
+.service-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #264c45;
+    padding-bottom: 6rem;
+    padding-top: 8rem;
+}
+
+.service-grid{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.service-item{
+    max-width: 80%;
+    padding-bottom: 3rem;
+}

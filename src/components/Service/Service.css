@@ -1,19 +1,21 @@
 .service-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #264c45;
     padding-bottom: 6rem;
     padding-top: 8rem;
 }
 
 .service-grid{
-    width: 85%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    column-gap: 6rem;
 }
 
 .service-item{
-    max-width: 80%;
-    padding-bottom: 3rem;
+    min-width: 90%;
+    padding-bottom: 2rem;
+    padding-right: 7rem;
 }

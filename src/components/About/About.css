@@ -1,6 +1,6 @@
 .about-container{
-    max-width: 80%;
-    margin: auto;
+    width: min(85%, 70.5rem);
+    margin-inline: auto;
     margin-top: 15rem;
     margin-bottom: 7rem;
 }
@@ -30,12 +30,12 @@
 
 .maria{
     max-width: 100%;
-    height: auto;
+    min-height: 100%;
+    display: block;
 }
 
 .about-btn{
-    max-width: 30%;
-    min-width: 30%;
+    width: 200px;
     padding: 24px;
     margin-top: 2rem;
     border-radius: 12px;
@@ -49,4 +49,9 @@
     color: #343A52;
 }
 
-
+@media (max-width: 40em) {
+    .about-row{
+        display: flex;
+        flex-direction: column;
+    }
+}

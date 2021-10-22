@@ -12,7 +12,7 @@ function App() {
       <Home />
       <About />
       <Service />
-      {/* <Form /> */}
+      <Form />
     </div>
   );
 }

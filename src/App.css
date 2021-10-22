@@ -1,15 +1,28 @@
-html, body{
-    margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: local("LibreBaskerville"),
+      url("./fonts/LibreBaskerville-Regular.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+body{
     background-image: url(Hero.png);
     background-repeat: no-repeat;
     background-size: 100% 25%;
     background-position: 0rem 0vh;
+    margin: 0;
 }
 
 h1{
     font-size: 3rem;
     line-height: 4rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'DM Serif Display', serif;
     color: #F9FFEA;
 }
 
@@ -30,8 +43,8 @@ h4{
 }
 
 p{
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     line-height: 2.25rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: LibreBaskerville;
     color: #F9FFEA;
 }

@@ -73,3 +73,15 @@ input[type=submit]{
     max-width: 100%;
     min-height: 100%;
 }
+
+@media (max-width: 40em) {
+    .form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-col{
+        width: 400px;
+        margin-inline: auto;
+    }
+}

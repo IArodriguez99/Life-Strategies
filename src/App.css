@@ -7,7 +7,7 @@
 @font-face {
     font-family: "LibreBaskerville";
     src: local("LibreBaskerville"),
-      url("./fonts/LibreBaskerville-Regular.ttf") format("truetype");
+    url("./fonts/LibreBaskerville-Regular.ttf") format("truetype");
     font-weight: normal;
   }
 
@@ -17,6 +17,13 @@ body{
     background-size: 100% 25%;
     background-position: 0rem 0vh;
     margin: 0;
+}
+
+@media (max-width: 40em) {
+    body{
+        overflow-x: hidden;
+        background-size: 100% 15%;
+    }
 }
 
 h1{

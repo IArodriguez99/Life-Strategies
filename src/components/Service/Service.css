@@ -1,5 +1,6 @@
 .service-container{
     display: flex;
+    margin-inline: auto;
     justify-content: center;
     background-color: #264c45;
     padding-bottom: 6rem;
@@ -18,4 +19,16 @@
     min-width: 90%;
     padding-bottom: 2rem;
     padding-right: 7rem;
+}
+
+@media (max-width: 40em) {
+    .service-grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .service-item{
+        padding-right: 0;
+    } 
 }

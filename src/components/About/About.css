@@ -14,12 +14,12 @@
 
 .about-row h1{
     color: #343A52;
-    max-width: 80%;
+    
 }
 
 .about-row p{
     color: #343A52;
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .about-col{
@@ -53,5 +53,9 @@
     .about-row{
         display: flex;
         flex-direction: column;
+    }
+
+    .about-col{
+        min-width: 100%;
     }
 }

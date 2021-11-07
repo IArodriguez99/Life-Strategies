@@ -12,17 +12,18 @@
   }
 
 body{
-    background-image: url(Hero.png);
+    background-image: url(Hero.svg);
     background-repeat: no-repeat;
-    background-size: 100% 22%;
-    background-position: 0rem 0vh;
+    background-position-y: -7%;
+    background-position-x: 45%;
     margin: 0;
 }
 
 @media (max-width: 40em) {
     body{
         overflow-x: hidden;
-        background-size: 100% 15%;
+        background-position-x: 24%;
+        background-position-y: 0%;
     }
 }
 

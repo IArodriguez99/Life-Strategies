@@ -12,11 +12,7 @@
   }
 
 body{
-    background-image: url(Hero.svg);
-    background-repeat: no-repeat;
-    background-position-y: -7%;
-    background-position-x: 45%;
-    margin: 0;
+   margin: 0;
 }
 
 @media (max-width: 40em) {
@@ -56,3 +52,4 @@ p{
     font-family: LibreBaskerville;
     color: #F9FFEA;
 }
+

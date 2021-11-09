@@ -23,6 +23,10 @@ li{
 }
 
 a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #F9FFEA;
     cursor: pointer;
 }
 

@@ -24,7 +24,7 @@ function App() {
           <div className="Content">
             <Route path="/counseling" component={Counseling}>
               <Nav />
-              <Home />
+              <Counseling />
             </Route>
           </div>  
     </Router>

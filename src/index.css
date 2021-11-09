@@ -1,0 +1,14 @@
+.Home{
+    background-image: url(Hero.svg);
+    background-repeat: no-repeat;
+    background-position-y: -5%;
+    background-position-x: 45%;
+}
+
+.Content{
+    background-image: url(Counseling.svg);
+    background-repeat: no-repeat;
+    background-position-y: 75%;
+    background-position-x: 35%;
+}
+

@@ -10,6 +10,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    gap: 2rem;
 }
 
 .about-row h1{
@@ -50,6 +51,10 @@
 }
 
 @media (max-width: 40em) {
+    .about-container{
+        margin-top: 5rem;
+    }
+    
     .about-row{
         display: flex;
         flex-direction: column;

@@ -2,6 +2,7 @@
     width: min(85%, 70.5rem);
     margin-inline: auto;
     padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .service_row{
@@ -17,8 +18,36 @@
     min-width: 28%;
 }
 
-.service_col p{
+.service_row p{
     color: #343A52;
     font-size: 1rem;
 }
 
+.service_row_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 8rem;
+    gap: 5rem;
+}
+
+.service_col_2{
+    display: flex;
+    flex-direction: column;
+    max-width: 51%;
+}
+
+.service_col_2 p{
+    color: #343A52;
+    line-height: 3rem;
+}
+
+.service_col_2 h1{
+    font-size: 2.5rem;
+    color: #343A52;
+}
+
+.service_col_2 li{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}

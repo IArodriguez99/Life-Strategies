@@ -15,7 +15,21 @@ const Service_Row = () => {
                 <div className="service_col">
                     <h3>Grief</h3>
                     <p>Take advantage of our group counseling services which includes divorce care, marriage groups, singles groups, and even a mother/daughter options. </p>
-                </div>
+                </div>  
+            </div>
+            <div className="service_row_2">
+                <div className="service_col_2">
+                    <h1>Mental health counseling</h1>
+                    <p>We use a unique approach to address all of your mental health needs and provide the support, encouragement, and professional assistance you need to function in a way that best suits the way your mind works.</p>
+                </div> 
+                <div className="service_col_2">
+                    <h1>Additional counseling for:</h1>
+                    <li>Marriage and Relationships</li>
+                    <li>Women's Health</li>
+                    <li>Grief</li>
+                    <li>Anger Management</li>
+                    <li>Codependacy</li>
+                </div>         
             </div>
         </div>
      );

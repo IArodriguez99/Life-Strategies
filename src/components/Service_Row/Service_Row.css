@@ -1,0 +1,24 @@
+.service_container{
+    width: min(85%, 70.5rem);
+    margin-inline: auto;
+    padding-top: 8rem;
+}
+
+.service_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.service_col{
+    display: flex;
+    flex-direction: column;
+    min-width: 28%;
+}
+
+.service_col p{
+    color: #343A52;
+    font-size: 1rem;
+}
+

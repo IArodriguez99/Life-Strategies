@@ -8,7 +8,7 @@
 }
 
 .service-grid{
-    width: 80%;
+    width: min(85%, 70.5rem);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -16,9 +16,7 @@
 }
 
 .service-item{
-    min-width: 90%;
     padding-bottom: 2rem;
-    padding-right: 7rem;
 }
 
 @media (max-width: 40em) {

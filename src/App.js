@@ -6,6 +6,7 @@ import Form from './components/Form/Form'
 import About from './components/About/About'
 import Service from './components/Service/Service'
 import Counseling from './components/Counseling/Counseling'
+import Service_Row from './components/Service_Row/Service_Row'
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/counseling" component={Counseling}>
               <Nav />
               <Counseling />
+              <Service_Row />
             </Route>
           </div>  
     </Router>

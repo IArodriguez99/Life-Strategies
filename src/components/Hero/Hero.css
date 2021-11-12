@@ -1,0 +1,36 @@
+.hero-container{
+    background-image: url(Hero2.png);
+    background-repeat: no-repeat;
+    margin-inline: auto;
+    overflow: visible;
+    width: 90%;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 16rem;
+    border-radius: 12px;
+}
+
+.hero-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12rem;
+}
+
+.hero-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin-inline: auto;
+}
+
+@media (max-width: 40em) {
+    .hero-row{
+        margin-top: -4rem;
+    }
+}
+
+
+
+
+
+

@@ -7,6 +7,7 @@ import About from './components/About/About'
 import Service from './components/Service/Service'
 import Counseling from './components/Counseling/Counseling'
 import Service_Row from './components/Service_Row/Service_Row'
+import Hero from './components/Hero/Hero'
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -27,6 +28,7 @@ function App() {
               <Nav />
               <Counseling />
               <Service_Row />
+              <Hero />
             </Route>
           </div>  
     </Router>

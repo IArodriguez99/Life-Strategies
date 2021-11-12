@@ -28,7 +28,7 @@ const Service_Row = () => {
                     <li>Women's Health</li>
                     <li>Grief</li>
                     <li>Anger Management</li>
-                    <li>Codependacy</li>
+                    <li>Codependancy</li>
                 </div>         
             </div>
         </div>

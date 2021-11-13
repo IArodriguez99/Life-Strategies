@@ -12,7 +12,7 @@ const Nav = () => {
                 <Link to='/counseling'><li>Counseling</li></Link>
                 <li><a>Coaching</a></li>
                 <li><a>Women's Health</a></li>
-                <li><a>Faith Based</a></li>
+                <Link to='/faith'><li>Faith Based</li></Link>
                 <li><a>About</a></li>
                 <button className="nav-btn">Contact</button>
             </ul>     

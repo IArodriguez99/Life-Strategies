@@ -9,6 +9,8 @@ import Counseling from './components/Counseling/Counseling'
 import Service_Row from './components/Service_Row/Service_Row'
 import Hero from './components/Hero/Hero'
 import Trauma from './components/Trauma/Trauma'
+import Footer from './components/Footer/Footer'
+import Faith from './components//Faith.js/Faith'
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -32,7 +34,13 @@ function App() {
               <Hero />
               <Trauma />
             </Route>
-          </div>  
+          </div> 
+          <Footer />
+          <div className="content">
+            <Route path="/faith" component={Faith}>
+              <Faith />
+            </Route>
+          </div>
     </Router>
   );
 }

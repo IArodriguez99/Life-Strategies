@@ -12,13 +12,13 @@
     align-items: top;
     justify-content: center;
     gap: 3rem;
-    width: 100%;
+    width: min(85%, 70.5rem);
 }
 
 .container-col{
     display: grid;
     grid-template-rows: 1fr 1fr 4fr;
-    width: 600px;
+    width: 550px;
 }
 
 .form-col{

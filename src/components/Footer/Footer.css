@@ -1,0 +1,17 @@
+.footer-container{
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #264C45;
+}
+
+.footer-row{
+    width: min(85%, 70.5rem);
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}

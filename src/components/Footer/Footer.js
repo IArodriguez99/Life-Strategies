@@ -9,14 +9,14 @@ const Footer = () => {
                     <p>“Building Bridges For Successful Living”</p>
                 </div>
                 <div className="footer-col">
-                    <p>Forms</p>
+                    <h4>Forms</h4>
                     <p>Policy-(HIPAA)</p>
                     <p>Mandatory Reporting Requirements</p>
                     <p>Financial and Missed Appointment Policy</p>
                     <p>Informed Consent Form</p>
                 </div>
                 <div className="footer-col">
-                    <p>Contact</p>
+                    <h4>Contact</h4>
                     <p>Email: mfernandez916@gmail.com</p>
                     <p>Phone: 407-738-0955</p>
                 </div>

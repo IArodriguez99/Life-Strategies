@@ -1,7 +1,7 @@
 .footer-container{
-    margin-inline: auto;
+    padding: 2rem 0rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #264C45;
 }
 
@@ -9,9 +9,22 @@
     width: min(85%, 70.5rem);
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    gap: 6rem;
+
 }
 
 .footer-col{
     display: flex;
     flex-direction: column;
 }
+
+.footer-col p{
+    font-size: 0.8rem;
+    margin-top: -0.2rem;
+}
+
+.footer-col h1{
+   margin-top: 0.8rem
+}
+

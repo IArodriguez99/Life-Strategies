@@ -1,0 +1,33 @@
+.faith-background{
+    width: 100%;
+    padding-bottom: 10rem;
+    background-image: url(Cross.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-position-x: -3rem;
+}
+
+.faith-container{
+    width: min(85%, 70.5rem);
+    margin-inline: auto;
+}
+
+.faith-row{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8rem;
+}
+
+.faith-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+}
+
+.faith-col p{
+    color: #343A52;
+}
+
+.faith-col h1{
+    color: #343A52;
+}

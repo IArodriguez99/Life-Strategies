@@ -35,12 +35,14 @@ function App() {
               <Trauma />
             </Route>
           </div> 
-          <Footer />
-          <div className="content">
+          <div className="Faith">
             <Route path="/faith" component={Faith}>
+              <Nav />
               <Faith />
+              <Form />
             </Route>
           </div>
+          <Footer />
     </Router>
   );
 }

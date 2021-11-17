@@ -14,7 +14,7 @@ const Nav = () => {
                     <li><a>Coaching</a></li>
                     <li><a>Women's Health</a></li>
                     <Link to='/faith'><li>Faith Based</li></Link>
-                    <li><a>About</a></li>
+                    <Link to='/about'><li>About</li></Link>
                     <button className="nav-btn">Contact</button>
                 </ul>     
             </nav>

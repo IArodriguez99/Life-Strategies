@@ -1,0 +1,38 @@
+.Me-container{
+    width: min(85%, 70.5rem);
+    margin-inline: auto;
+}
+
+.Me-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.Me-row-2{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-bottom: 4rem;
+}
+
+.Me-row-2 p{
+    color: #343A52;
+    line-height: 2.5rem;
+}
+
+.Me-col{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.Me-col p{
+    color: #343A52;
+    font-weight: bold;
+    line-height: 2.5rem;
+}

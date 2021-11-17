@@ -11,6 +11,7 @@ import Hero from './components/Hero/Hero'
 import Trauma from './components/Trauma/Trauma'
 import Footer from './components/Footer/Footer'
 import Faith from './components//Faith.js/Faith'
+import Me from './components/Me/Me'
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -40,6 +41,12 @@ function App() {
               <Nav />
               <Faith />
               <Form />
+            </Route>
+          </div>
+          <div className="About">
+            <Route path="/about" component={About}>
+              <Nav />
+              <Me />
             </Route>
           </div>
           <Footer />
